@@ -12,9 +12,9 @@ namespace Wishlist.Pages.WishlistItems
 {
     public class CreateModel : PageModel
     {
-        private readonly Wishlist.Data.Context.WishlistDbContext _context;
+        private readonly WishlistDbContext _context;
 
-        public CreateModel(Wishlist.Data.Context.WishlistDbContext context)
+        public CreateModel(WishlistDbContext context)
         {
             _context = context;
         }
